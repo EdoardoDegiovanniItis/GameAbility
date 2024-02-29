@@ -5,13 +5,13 @@ This is a project made by the team "BCDG Labs".
 ### Components of the Team:
 
 >* Edoardo Degiovanni
->  * Leader
+>    * Leader
 >* Francesco Boccia
->  * Creator of the presentation & graphic
+>    * Creator of the presentation & graphic
 >* Nicolò Cavallera
->  * ultraleap developer & graphic
+>    * ultraleap developer & graphic
 >* Francesco Giraudo
->  * javascript developer
+>    * javascript developer
 
 ### Description:
 
@@ -28,4 +28,20 @@ Our goal is to create a game that allows you to rehabilitate your arms by traini
 
 ### Software needed:
 
-* 
+* Ultraleap Widget (Beta), version used: [click here](https://leap2.ultraleap.com/ultraleap-widgets/)
+* Visual Studio Code, version used: [click here](https://code.visualstudio.com/)
+* you must have also a browser like Google Chrome, Mozilla Firefox etc.
+
+### Development:
+
+After deciding the roles we each began to develop our parts and we helped each other with the errors that we had during the develpment. 
+
+
+### How to use the project:
+
+1. Download the final project from the main branch.
+2. Download Visual Studio Code from the link.
+3. Download Ultraleap Widget from the link.
+4. open Ultraleap Widget and click on "Pointer" in order to use it as a mouse.
+5. Open the project that you downloaded before on Visual Studio Code.
+6. Have fun playing the game.
