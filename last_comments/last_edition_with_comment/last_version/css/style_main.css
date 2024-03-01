@@ -1,0 +1,34 @@
+/* Styles for the body element */
+body {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content to the top */
+    height: 100vh; /* Set height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+    background-image: url('/img/background/bgMain.png'); /* Set background image */
+    background-size: contain; /* Scale background image to fit within the element */
+    background-position: center; /* Position background image at the center */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-color: #fff; /* Change background color to fill any empty spaces */
+}
+
+/* Styles for the button container */
+.button-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    margin-top: 60vh; /* Position the container at approximately 60% of the viewport height from the top */
+}
+
+/* Styles for the buttons */
+.button {
+    left: -400px; /* Shift the button 400px to the left */
+    padding: 30px 80px; /* Set padding */
+    width: 290px; /* Set width */
+    height: 100px; /* Set height */
+    font-size: 18px; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+    background-color: transparent; /* Set transparent background */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}

@@ -1,0 +1,79 @@
+/* Import Google Fonts Poppins with various weights */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* Apply styles to all elements */
+* {
+    /* Universal styles */
+}
+
+/* Styles for the body element */
+body {
+    background-image: url('/img/background/bgLvl.png'); /* Set background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center top; /* Position the background image at the top center */
+}
+
+/* Styles for the button container */
+.button-container {
+    position: relative; /* Ensure absolute positioning is relative to this container */
+    margin-top: 20px; /* Add margin to space the container from the top */
+}
+
+/* Styles for the buttons */
+.button {
+    position: absolute; /* Set absolute positioning */
+    top: 35px; /* Position the button at the top of its parent container */
+    left: 50px; /* Adjust the left position */
+    width: 95px; /* Increase button width */
+    height: 80px; /* Set button height */
+    font-size: 18px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer */
+    background-color: transparent; /* Set transparent background */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}
+
+/* Styles for the memory grid */
+.memory-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Define 4 columns with equal width */
+    gap: 10px; /* Set gap between grid items */
+    justify-items: center; /* Align grid items along the center */
+    width: 800px; /* Set desired width */
+    height: 600px; /* Set desired height */
+    margin: 133px auto 0; /* Center the grid vertically with margin */
+    overflow: visible; /* Allow content to overflow if necessary */
+}
+
+/* Styles for memory cards */
+.memory-card {
+    width: calc((800px - 3 * 10px) / 4); /* Calculate card width based on container size and gap */
+    height: calc((600px - 3 * 10px) / 4); /* Calculate card height based on container size and gap */
+    perspective: 1000px; /* Set perspective for 3D effects */
+    position: relative; /* Set relative positioning */
+}
+
+/* Styles for memory card images */
+.memory-card img {
+    width: 100%; /* Set image width to 100% */
+    height: 100%; /* Set image height to 100% */
+    position: absolute; /* Set absolute positioning */
+    backface-visibility: hidden; /* Hide the backface of the image */
+    transition: transform 0.5s; /* Add transition effect for smooth rotation */
+    border-radius: 10px; /* Round the corners of the image */
+}
+
+/* Styles for flipped memory card front face */
+.memory-card.flip .front-face {
+    transform: rotateY(-180deg); /* Rotate front face by 180 degrees */
+}
+
+/* Styles for flipped memory card back face */
+.memory-card.flip .back-face {
+    transform: rotateY(0deg); /* Rotate back face by 0 degrees */
+}
+
+/* Styles for the back face of the memory card */
+.back-face {
+    transform: rotateY(180deg); /* Rotate back face by 180 degrees */
+}

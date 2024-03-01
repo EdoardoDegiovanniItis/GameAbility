@@ -1,0 +1,42 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* Styles for the memory grid */
+.memory-grid {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Divide grid into 4 columns of equal width */
+    gap: 10px; /* Add gap between grid items */
+    justify-items: center; /* Center grid items horizontally */
+}
+
+/* Styles for the memory card */
+.memory-card {
+    width: 150px; /* Set width of memory card */
+    height: 150px; /* Set height of memory card */
+    perspective: 1000px; /* Set perspective for 3D effect */
+    margin: 10px; /* Add margin around memory cards */
+    position: relative; /* Set position to relative */
+}
+
+/* Styles for images inside memory card */
+.memory-card img {
+    width: 100%; /* Make image fill entire memory card */
+    height: 100%; /* Make image fill entire memory card */
+    position: absolute; /* Position image absolutely */
+    backface-visibility: hidden; /* Hide the back face of the image */
+    transition: transform 0.5s; /* Add transition effect for flipping */
+}
+
+/* Styles for flipping memory cards */
+.memory-card.flip .front-face {
+    transform: rotateY(-180deg); /* Rotate front face of card */
+}
+
+.memory-card.flip .back-face {
+    transform: rotateY(0deg); /* Reset rotation for back face of card */
+}
+
+/* Styles for the back face of memory cards */
+.back-face {
+    transform: rotateY(180deg); /* Rotate back face of card */
+}

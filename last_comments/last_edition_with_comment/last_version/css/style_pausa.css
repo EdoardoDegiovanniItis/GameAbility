@@ -1,0 +1,33 @@
+/* Styles for the body element */
+body {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+    background-image: url('/img/background/bgPausa.png'); /* Set background image */
+    background-size: contain; /* Resize image to fit inside the body element */
+    background-position: center; /* Position the background image at the center */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-color: #fff; /* Change background color to white */
+}
+
+/* Styles for the button container */
+.button-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Styles for the buttons */
+.button {
+    padding: 30px 80px; /* Increase padding to widen the buttons */
+    margin: 20px 0; /* Add margin between buttons */
+    width: 250px; /* Increase button width */
+    height: 80px; /* Increase button height */
+    font-size: 18px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer */
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}

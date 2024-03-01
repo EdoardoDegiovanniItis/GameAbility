@@ -1,0 +1,24 @@
+/* Styles for the body element */
+body {
+    background-image: url('/img/background/victory.png'); /* Set background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-position: center; /* Position the background image at the center */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to 100% of viewport height */
+    flex-direction: column; /* Arrange items vertically */
+    top: 0%; /* Position from the top of the viewport */
+}
+
+/* Styles for the button */
+.button {
+    width: 105px; /* Set button width */
+    height: 100px; /* Set button height */
+    background-color: transparent; /* Remove background color */
+    position: absolute; /* Set position to absolute */
+    top: 180px; /* Position button 180px from the top */
+    left: 65px; /* Position button 65px from the left */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+}

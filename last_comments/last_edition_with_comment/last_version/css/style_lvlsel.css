@@ -1,0 +1,35 @@
+/* Styles for the body element */
+body {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+    background-image: url('/img/background/bglvlsel.png'); /* Set background image */
+    background-size: contain; /* Scale background image to fit within the element */
+    background-position: center; /* Position background image at the center */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-color: #fff; /* Change background color to fill any empty spaces */
+}
+
+/* Styles for the button container */
+.button-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Styles for the buttons */
+.button {
+    position: relative; /* Set relative positioning */
+    left: -15px; /* Move each button 15px to the left */
+    padding: 30px 80px; /* Set padding */
+    margin: 18px 0; /* Set margin */
+    width: 295px; /* Set width */
+    height: 100px; /* Set height */
+    font-size: 18px; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Set transparent background */
+}
